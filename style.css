@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: italic;
+}
+body{
+    padding: 50px 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    box-sizing: initial;
+    width: 700px;
+    padding: 25px;
+    border: thin solid black;
+    background-color: #B9EADC;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    font-size: 23px;
+}
+.card-text{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+input::placeholder{
+    color: black;
+}
+.number1, .number2{
+    color: black;
+    font-size: 24px;
+}
+.number1{
+    width: 200px;
+    height: 100px;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #FCB1B1;
+    border-radius: 5px;
+    border: medium solid black;
+    float: left;
+    margin-right: 200px;
+}
+.number1>p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.number2{
+    width: 200px;
+    height: 100px;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #FCB1B1;
+    border-radius: 5px;
+    border: medium solid black;
+    float: left;
+}
+.number2>p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #FCB1B1;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition: .3s;
+    font-style: italic;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.section_hearts{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0;
+}
+.sign_heart>img{
+    width: 60px;
+    height: 50px;
+}
+.sign_heart>p{
+    text-align: center;
+    font-size: 16px;
+}
+.bits{
+    display: grid;
+    grid-template-rows:  1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.bit_heart{
+    text-align: center;
+}
+.bit_heart>img{
+    width: 60px;
+    height: 50px;
+}
+.bit_heart>p{
+    text-align: center;
+    font-size: 18px;
+}
